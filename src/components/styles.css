@@ -1,0 +1,84 @@
+/*Alerts*/
+.boxAlert {
+    padding-top: 1rem;
+    color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    background: #d3d3d3;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.card {
+    width: 90%;
+    max-width: 400px;
+    padding: 1.9rem 1.2rem;
+    text-align: center;
+    background: #2a2b38;
+    border-radius: 16px;
+}
+
+/*TITLE*/
+.title {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #f5f5f5;
+}
+
+/*Inputs*/
+.field {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+    background-color: #1f2029;
+    border-radius: 4px;
+    padding: .8em 1em;
+}
+
+.input-icon{
+    height: 1.2em;
+    width: 1.2em;
+    fill: #ffeba7;
+}
+
+.input-field{
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #d3d3d3;
+}
+
+.input-field::-webkit-inner-spin-button {
+    /* Cambia el color del icono del ojo aquí */
+    color: red;
+}
+
+/*Button*/
+
+.btn{
+    margin-top: 2rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: .8em;
+    text-transform: uppercase;
+    padding: 0.6em 1.2em;
+    background-color: #ffeba7;
+    color: #5e6681;
+    box-shadow: 0 8px 24px 0 rgb(255 235 167 / 20%);
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #5e6681;
+    color: #ffeba7;
+    box-shadow: 0 8px 24px 0 rgb(16 39 112 / 20%);
+}
